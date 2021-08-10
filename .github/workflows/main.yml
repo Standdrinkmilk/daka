@@ -34,7 +34,7 @@ jobs:
     # 配置环境变量给js读取，执行js文件
     - name: Run sign
       env:
-        INFO: ${{ secrets.INFO }}
+        INFO: ${{ secrets.ZYHSchool }}
         MAIL: ${{ secrets.MAIL }}
       run: node index.js
                 
